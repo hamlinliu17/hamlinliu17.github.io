@@ -1,14 +1,6 @@
 /*Picture Transition CSS
 */
 
-#pic img {
-  position: absolute;
-  transition: opacity .3s ease;
-}
-#pic img:hover {
-  opacity: 0;
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     color: #eee;
